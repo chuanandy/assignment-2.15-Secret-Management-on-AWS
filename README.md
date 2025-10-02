@@ -13,17 +13,29 @@
 _________________________________________________________________________________________________
 json
 {
+
    "Version": "2012-10-17",
+   
    "Statement": [
+   
    {
+   
       "Effect": "Allow",
+      
       "Action": [
+      
          "secretsmanager:GetSecretValue",
+         
          "secretsmanager:DescribeSecret"
+         
       ],
+      
       "Resource": "arn:aws:secretsmanager:ap-southeast-1:123456789012:secret:prod/cart-service/credentials-*"
+      
       }
+      
    ]
+   
 }
 
 ___________________________________________________________________________________________________
