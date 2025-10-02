@@ -11,7 +11,8 @@
 2. Derive the IAM policy (i.e. JSON)?
    - Using the secret name prod/cart-service/credentials, derive a sensible ARN as the specific resource for access
 _________________________________________________________________________________________________
-   json
+  
+      json
 
 
       {
