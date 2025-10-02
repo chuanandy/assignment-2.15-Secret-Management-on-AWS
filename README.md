@@ -43,7 +43,7 @@ ________________________________________________________________________________
 
 *Specific Resource ARN
 
-For the secret named prod/cart-service/credentials, the precise Amazon Resource Name (ARN) should be used to restrict access only to that secret.
+For the secret named prod/cart-service/credentials, the precise Amazon Resource Name (ARN) should be used to restrict access only to the specific secret.
 
 A sensible and robust ARN for the policy resource is:
 
