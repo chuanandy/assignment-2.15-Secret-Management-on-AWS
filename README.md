@@ -15,11 +15,11 @@ json
 
 {
 
-   "Version": "2012-10-17",
+      "Version": "2012-10-17",
    
-   "Statement": [
+      "Statement": [
    
-   {
+      {
    
       "Effect": "Allow",
       
@@ -36,8 +36,7 @@ json
       } 
    ]  
 }
-
-___________________________________________________________________________________________________
+__________________________________________________________________________________________________
 
 @ Specific Resource ARN
 For the secret named prod/cart-service/credentials, the precise Amazon Resource Name (ARN) should be used to restrict access only to that secret.
