@@ -12,6 +12,7 @@
    - Using the secret name prod/cart-service/credentials, derive a sensible ARN as the specific resource for access
 _________________________________________________________________________________________________
 json
+
 {
 
    "Version": "2012-10-17",
