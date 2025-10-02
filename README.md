@@ -45,7 +45,8 @@ ________________________________________________________________________________
 For the secret named prod/cart-service/credentials, the precise Amazon Resource Name (ARN) should be used to restrict access only to that secret.
 
 A sensible and robust ARN for the policy resource is:
-arn:aws:secretsmanager:<region>:<account-id>:secret:<secret-name>-<6_random_chars>
+
+arn:aws:secretsmanager:"<region":"account-id":secret:"secret-name"-<6_random_chars>
 
 This format is required because AWS Secrets Manager automatically adds a unique random 6-character suffix to the secret name in the ARN. 
 Using the wildcard (∗) after the hyphen ensures the policy works correctly, regardless of the random suffix.
